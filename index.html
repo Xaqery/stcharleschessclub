@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>St. Charles Chess Club</title>
+  <meta name="description" content="St. Charles Chess Club - weekly ladder standings, schedule, and membership info. Thursdays in St. Charles, IL." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark">&#9822;</span>
+        <span class="brand-text">
+          <strong>St. Charles Chess Club</strong>
+          <small>St. Charles, Illinois &middot; Est. 1971</small>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="#standings">Standings</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#join">Join</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <a id="top"></a>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1>Where St. Charles plays chess.</h1>
+      <p class="hero-sub">All levels welcome, from first-timers to experts. We meet
+        <strong>every Thursday, 6&ndash;10&nbsp;PM</strong> on the top floor of Baker Community House.</p>
+      <div class="hero-chips">
+        <span class="chip">&#9876;&#65039; Casual play 6&ndash;7&nbsp;PM</span>
+        <span class="chip">&#9819; Ladder games after 7&nbsp;PM</span>
+        <span class="chip">&#9817; First two visits free</span>
+      </div>
+      <a class="cta" href="#standings">View the latest ladder &darr;</a>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <!-- STANDINGS -->
+    <section id="standings" class="card section">
+      <div class="section-head">
+        <div>
+          <h2>Ladder Standings</h2>
+          <p class="as-of" id="asOf">&nbsp;</p>
+        </div>
+        <div class="controls">
+          <label class="field">
+            <span>Week</span>
+            <select id="weekSelect"></select>
+          </label>
+          <label class="field grow">
+            <span>Search player</span>
+            <input id="search" type="search" placeholder="Type a name&hellip;" autocomplete="off" />
+          </label>
+        </div>
+      </div>
+
+      <div class="stat-row" id="statRow"></div>
+
+      <div class="table-scroll">
+        <table class="standings" id="standingsTable">
+          <thead>
+            <tr>
+              <th data-sort="rank" class="num sortable">#</th>
+              <th data-sort="name" class="sortable">Player</th>
+              <th data-sort="rating" class="num sortable">Rating</th>
+              <th data-sort="score" class="num sortable">Points</th>
+              <th data-sort="games" class="num sortable">Games</th>
+              <th data-sort="accum" class="num sortable">Tiebreak</th>
+            </tr>
+          </thead>
+          <tbody id="standingsBody"></tbody>
+        </table>
+      </div>
+      <p class="empty-msg" id="emptyMsg" hidden>No players match your search.</p>
+      <p class="fine">Points = ladder score (win 1, draw &frac12;). Tiebreak = USCF cumulative.
+        Updated weekly after club night.</p>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section id="schedule" class="card section">
+      <h2>Schedule &amp; Format</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Every Thursday</h3>
+          <ul class="ticks">
+            <li><strong>6:00&ndash;7:00 PM</strong> &mdash; casual / skittles games</li>
+            <li><strong>6:50 PM</strong> &mdash; sign up for ladder pairings</li>
+            <li><strong>7:00&ndash;10:00 PM</strong> &mdash; rated ladder games</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Time control</h3>
+          <p><strong>80/d5</strong> &mdash; eighty minutes per player with a 5-second delay.</p>
+          <h3>Tournaments</h3>
+          <p>Six club tournaments a year, including USCF-rated events. Top ladder
+            finishers play for the <strong>Knight&rsquo;s Cup</strong> and <strong>Squire&rsquo;s Cup</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section id="join" class="card section">
+      <h2>Join the Club</h2>
+      <div class="grid-2">
+        <div>
+          <p>New players are always welcome. Your <strong>first two visits are free</strong> &mdash;
+            just show up on a Thursday evening and ask for a game.</p>
+          <p>Annual membership is <strong>$39</strong>. Members appear on the weekly
+            ladder and are eligible for club tournaments.</p>
+        </div>
+        <div class="where-card">
+          <h3>Where we meet</h3>
+          <p>Baker Community House &mdash; top floor<br />
+            101 S 2nd St<br />
+            St. Charles, IL 60174</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>St. Charles Chess Club</strong>
+        <p>101 S 2nd St, St. Charles, IL 60174<br />Thursdays, 6&ndash;10 PM</p>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <p>Gary &middot; <a href="tel:+18478950996">(847) 895-0996</a></p>
+      </div>
+      <div class="footer-note">
+        <p>Ladder standings update automatically from club results.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/standings.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
