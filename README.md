@@ -35,17 +35,26 @@ The live site updates on the next deploy (usually within a minute).
 Just open `docs/index.html` in a browser (it works from `file://` because the
 data is a plain `.js` file, not a fetched JSON).
 
-## Deploying (GitHub Pages - already enabled)
+## How it's published
 
-This site is published from the **`master` branch, `/docs` folder**
-(GitHub repo: **Settings -> Pages**). It goes live at
-`https://<user>.github.io/<repo>/`. Every push that changes `docs/` redeploys.
+This (private) repo is the single source of truth. Because free GitHub Pages
+needs a *public* repo, the contents of this `docs/` folder are published to a
+separate public repo whose Pages serves the live site:
 
-Optional: point a custom domain (e.g. `stcharleschessclub.org`) at it under
-Settings -> Pages -> Custom domain.
+  https://xaqery.github.io/stcharleschessclub/
 
-Any host that serves static files (Netlify, Cloudflare Pages, etc.) also works -
-just publish the `docs/` folder.
+You don't publish by hand. After a club night just run:
+
+```
+python update_site.py      (or double-click publish.bat)
+```
+
+That refreshes the data, commits to this private repo, and pushes `docs/` to the
+public site repo. Under the hood `publish_site.py` does the actual publish via
+`git subtree split` + force-push to the `site` remote.
+
+Optional later: point a custom domain (e.g. `stcharleschessclub.org`) at the
+public repo under its **Settings -> Pages -> Custom domain**.
 
 ## Notes / TODO
 
