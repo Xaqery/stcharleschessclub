@@ -3,6 +3,911 @@ window.LADDER_DATA = {
  "generatedFrom": "results/",
  "weeks": [
   {
+   "file": "260702",
+   "date": "2026-07-02",
+   "label": "July 2, 2026",
+   "rankedPlayers": 112,
+   "playedThisWeek": 29,
+   "standings": [
+    {
+     "rank": 1,
+     "name": "Jeff Wiewel",
+     "rating": "1900",
+     "score": "18.5",
+     "games": "20",
+     "accum": "194"
+    },
+    {
+     "rank": 2,
+     "name": "John Suits",
+     "rating": "1941",
+     "score": "15",
+     "games": "20",
+     "accum": "162.5"
+    },
+    {
+     "rank": 3,
+     "name": "Sean Thompson",
+     "rating": "1923",
+     "score": "14.5",
+     "games": "22",
+     "accum": "172.5"
+    },
+    {
+     "rank": 4,
+     "name": "Ryan Chimienti",
+     "rating": "1723",
+     "score": "14",
+     "games": "21",
+     "accum": "165.5"
+    },
+    {
+     "rank": 5,
+     "name": "Neil Wren",
+     "rating": "1586",
+     "score": "14",
+     "games": "19",
+     "accum": "136"
+    },
+    {
+     "rank": 6,
+     "name": "Krishna Appalaneni",
+     "rating": "1715",
+     "score": "13.5",
+     "games": "20",
+     "accum": "177"
+    },
+    {
+     "rank": 7,
+     "name": "Zach Nudo",
+     "rating": "1945",
+     "score": "13",
+     "games": "16",
+     "accum": "115"
+    },
+    {
+     "rank": 8,
+     "name": "Abe",
+     "rating": "",
+     "score": "12.5",
+     "games": "27",
+     "accum": "185"
+    },
+    {
+     "rank": 9,
+     "name": "Arnav Shah",
+     "rating": "1228",
+     "score": "11",
+     "games": "19",
+     "accum": "98.5"
+    },
+    {
+     "rank": 10,
+     "name": "Craig Boskey",
+     "rating": "1425",
+     "score": "11",
+     "games": "16",
+     "accum": "101.5"
+    },
+    {
+     "rank": 11,
+     "name": "Tim Ailes",
+     "rating": "1938",
+     "score": "10",
+     "games": "14",
+     "accum": "76.5"
+    },
+    {
+     "rank": 12,
+     "name": "Gary Janssen",
+     "rating": "1747",
+     "score": "9.5",
+     "games": "21",
+     "accum": "109.5"
+    },
+    {
+     "rank": 13,
+     "name": "Rudy Padilla",
+     "rating": "1500",
+     "score": "9.5",
+     "games": "20",
+     "accum": "107"
+    },
+    {
+     "rank": 14,
+     "name": "Neil Levine",
+     "rating": "1614",
+     "score": "9.5",
+     "games": "16",
+     "accum": "79"
+    },
+    {
+     "rank": 15,
+     "name": "Greg Kelley",
+     "rating": "1481",
+     "score": "9.5",
+     "games": "15",
+     "accum": "81"
+    },
+    {
+     "rank": 16,
+     "name": "Steve Fulton",
+     "rating": "1736",
+     "score": "9.5",
+     "games": "13",
+     "accum": "57"
+    },
+    {
+     "rank": 17,
+     "name": "Paul Hanke",
+     "rating": "1224",
+     "score": "9",
+     "games": "21",
+     "accum": "95.5"
+    },
+    {
+     "rank": 18,
+     "name": "Marcus Stinson",
+     "rating": "1834",
+     "score": "9",
+     "games": "10",
+     "accum": "45"
+    },
+    {
+     "rank": 19,
+     "name": "Anson James",
+     "rating": "1211",
+     "score": "8.5",
+     "games": "23",
+     "accum": "108"
+    },
+    {
+     "rank": 20,
+     "name": "Advik Kumar",
+     "rating": "1502",
+     "score": "8.5",
+     "games": "18",
+     "accum": "84"
+    },
+    {
+     "rank": 21,
+     "name": "Nysa Ranjan",
+     "rating": "1470",
+     "score": "8.5",
+     "games": "12",
+     "accum": "58.5"
+    },
+    {
+     "rank": 22,
+     "name": "Eduardo Correa",
+     "rating": "1607",
+     "score": "8.5",
+     "games": "10",
+     "accum": "42"
+    },
+    {
+     "rank": 23,
+     "name": "Daniel Apasov",
+     "rating": "",
+     "score": "8.5",
+     "games": "9",
+     "accum": "44.5"
+    },
+    {
+     "rank": 24,
+     "name": "Mark Sefcheck",
+     "rating": "1700",
+     "score": "8",
+     "games": "14",
+     "accum": "48"
+    },
+    {
+     "rank": 25,
+     "name": "Solomiia Kucher",
+     "rating": "1479",
+     "score": "8",
+     "games": "11",
+     "accum": "52"
+    },
+    {
+     "rank": 26,
+     "name": "Kavish Shah",
+     "rating": "522",
+     "score": "7.5",
+     "games": "26",
+     "accum": "93"
+    },
+    {
+     "rank": 27,
+     "name": "Chuck Giertz",
+     "rating": "1609",
+     "score": "7.5",
+     "games": "14",
+     "accum": "62.5"
+    },
+    {
+     "rank": 28,
+     "name": "Ryan Glander",
+     "rating": "1434",
+     "score": "7.5",
+     "games": "9",
+     "accum": "37.5"
+    },
+    {
+     "rank": 29,
+     "name": "Terry Scarbeary",
+     "rating": "1510",
+     "score": "7",
+     "games": "15",
+     "accum": "53.5"
+    },
+    {
+     "rank": 30,
+     "name": "Tom Hupp",
+     "rating": "1412",
+     "score": "7",
+     "games": "12",
+     "accum": "41"
+    },
+    {
+     "rank": 31,
+     "name": "David Fanning",
+     "rating": "",
+     "score": "6.5",
+     "games": "12",
+     "accum": "48.5"
+    },
+    {
+     "rank": 32,
+     "name": "Vaibhav Juturu",
+     "rating": "1592",
+     "score": "6.5",
+     "games": "11",
+     "accum": "40"
+    },
+    {
+     "rank": 33,
+     "name": "Aarav Kumar",
+     "rating": "629",
+     "score": "6",
+     "games": "21",
+     "accum": "78"
+    },
+    {
+     "rank": 34,
+     "name": "Dwight Sullivan",
+     "rating": "",
+     "score": "6",
+     "games": "18",
+     "accum": "60"
+    },
+    {
+     "rank": 35,
+     "name": "Russel Durante",
+     "rating": "517",
+     "score": "6",
+     "games": "15",
+     "accum": "53"
+    },
+    {
+     "rank": 36,
+     "name": "Jered Small",
+     "rating": "998",
+     "score": "6",
+     "games": "12",
+     "accum": "25.5"
+    },
+    {
+     "rank": 37,
+     "name": "Michael Grabiec",
+     "rating": "",
+     "score": "6",
+     "games": "12",
+     "accum": "36.5"
+    },
+    {
+     "rank": 38,
+     "name": "Tarang Shah",
+     "rating": "395",
+     "score": "5.5",
+     "games": "23",
+     "accum": "65"
+    },
+    {
+     "rank": 39,
+     "name": "John Haley",
+     "rating": "",
+     "score": "5",
+     "games": "11",
+     "accum": "32.5"
+    },
+    {
+     "rank": 40,
+     "name": "Philip Lyman",
+     "rating": "1200",
+     "score": "5",
+     "games": "8",
+     "accum": "20.5"
+    },
+    {
+     "rank": 41,
+     "name": "Larry Furnish",
+     "rating": "820",
+     "score": "4.5",
+     "games": "12",
+     "accum": "33.5"
+    },
+    {
+     "rank": 42,
+     "name": "Ken Marshall",
+     "rating": "1515",
+     "score": "4.5",
+     "games": "11",
+     "accum": "24"
+    },
+    {
+     "rank": 43,
+     "name": "Venkata Juturu",
+     "rating": "",
+     "score": "4",
+     "games": "11",
+     "accum": "33.5"
+    },
+    {
+     "rank": 44,
+     "name": "Tom Segreto",
+     "rating": "761",
+     "score": "4",
+     "games": "9",
+     "accum": "19"
+    },
+    {
+     "rank": 45,
+     "name": "Dylan Vogel",
+     "rating": "1354",
+     "score": "4",
+     "games": "7",
+     "accum": "13"
+    },
+    {
+     "rank": 46,
+     "name": "Steven Stella",
+     "rating": "662",
+     "score": "3.5",
+     "games": "12",
+     "accum": "12.5"
+    },
+    {
+     "rank": 47,
+     "name": "Aayansh Roy",
+     "rating": "968",
+     "score": "3.5",
+     "games": "8",
+     "accum": "16"
+    },
+    {
+     "rank": 48,
+     "name": "Ajrambar Kad",
+     "rating": "",
+     "score": "3.5",
+     "games": "8",
+     "accum": "23"
+    },
+    {
+     "rank": 49,
+     "name": "Mike Flynn",
+     "rating": "1914",
+     "score": "3.5",
+     "games": "8",
+     "accum": "14"
+    },
+    {
+     "rank": 50,
+     "name": "Adam Wishne",
+     "rating": "",
+     "score": "3",
+     "games": "7",
+     "accum": "14"
+    },
+    {
+     "rank": 51,
+     "name": "Ian Rowland",
+     "rating": "",
+     "score": "3",
+     "games": "5",
+     "accum": "12"
+    },
+    {
+     "rank": 52,
+     "name": "Michael Sedov",
+     "rating": "",
+     "score": "3",
+     "games": "5",
+     "accum": "9"
+    },
+    {
+     "rank": 53,
+     "name": "Voitech Grabiec",
+     "rating": "",
+     "score": "3",
+     "games": "5",
+     "accum": "8"
+    },
+    {
+     "rank": 54,
+     "name": "Joe Splinter",
+     "rating": "2113",
+     "score": "3",
+     "games": "3",
+     "accum": "6"
+    },
+    {
+     "rank": 55,
+     "name": "Amanda Durante",
+     "rating": "",
+     "score": "2.5",
+     "games": "14",
+     "accum": "16.5"
+    },
+    {
+     "rank": 56,
+     "name": "Daniel Mylymux",
+     "rating": "",
+     "score": "2.5",
+     "games": "6",
+     "accum": "10.5"
+    },
+    {
+     "rank": 57,
+     "name": "Anuj Dahiya",
+     "rating": "",
+     "score": "2.5",
+     "games": "4",
+     "accum": "7.5"
+    },
+    {
+     "rank": 58,
+     "name": "Victor Roque",
+     "rating": "1099",
+     "score": "2.5",
+     "games": "4",
+     "accum": "5.5"
+    },
+    {
+     "rank": 59,
+     "name": "Shohrux Batirov",
+     "rating": "",
+     "score": "2",
+     "games": "9",
+     "accum": "10"
+    },
+    {
+     "rank": 60,
+     "name": "Vaishnavi Juturu",
+     "rating": "905",
+     "score": "2",
+     "games": "5",
+     "accum": "6"
+    },
+    {
+     "rank": 61,
+     "name": "Daniel Kleeman",
+     "rating": "",
+     "score": "2",
+     "games": "4",
+     "accum": "6"
+    },
+    {
+     "rank": 62,
+     "name": "Alex Chau",
+     "rating": "1224",
+     "score": "2",
+     "games": "2",
+     "accum": "3"
+    },
+    {
+     "rank": 63,
+     "name": "Gopal Swaminathan",
+     "rating": "1431",
+     "score": "2",
+     "games": "2",
+     "accum": "3"
+    },
+    {
+     "rank": 64,
+     "name": "Leo Morisette",
+     "rating": "",
+     "score": "2",
+     "games": "2",
+     "accum": "3"
+    },
+    {
+     "rank": 65,
+     "name": "Sri Krishav Gopal",
+     "rating": "1599",
+     "score": "2",
+     "games": "2",
+     "accum": "3"
+    },
+    {
+     "rank": 66,
+     "name": "Srimathy Sridher",
+     "rating": "1138",
+     "score": "2",
+     "games": "2",
+     "accum": "3"
+    },
+    {
+     "rank": 67,
+     "name": "Bryan White",
+     "rating": "1381",
+     "score": "1.5",
+     "games": "2",
+     "accum": "2"
+    },
+    {
+     "rank": 68,
+     "name": "Eric Swanson",
+     "rating": "1707",
+     "score": "1.5",
+     "games": "2",
+     "accum": "2.5"
+    },
+    {
+     "rank": 69,
+     "name": "Sri Akshika Gopal",
+     "rating": "1204",
+     "score": "1.5",
+     "games": "2",
+     "accum": "2.5"
+    },
+    {
+     "rank": 70,
+     "name": "Nathan Fulton",
+     "rating": "679",
+     "score": "1",
+     "games": "5",
+     "accum": "4"
+    },
+    {
+     "rank": 71,
+     "name": "Aadhisudhan Vellapandi",
+     "rating": "",
+     "score": "1",
+     "games": "2",
+     "accum": "1"
+    },
+    {
+     "rank": 72,
+     "name": "Anson Shi",
+     "rating": "",
+     "score": "1",
+     "games": "2",
+     "accum": "2"
+    },
+    {
+     "rank": 73,
+     "name": "Connor Stellato",
+     "rating": "",
+     "score": "1",
+     "games": "2",
+     "accum": "2"
+    },
+    {
+     "rank": 74,
+     "name": "Shivakumaran Vellapandi",
+     "rating": "",
+     "score": "1",
+     "games": "2",
+     "accum": "2"
+    },
+    {
+     "rank": 75,
+     "name": "Shlok Upadhyay",
+     "rating": "",
+     "score": "1",
+     "games": "2",
+     "accum": "1"
+    },
+    {
+     "rank": 76,
+     "name": "Adarsh Girish",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 77,
+     "name": "Chris McInerney",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 78,
+     "name": "Jim Marshall",
+     "rating": "2043",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 79,
+     "name": "Kaden Gomez",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 80,
+     "name": "Kanish Shaw",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 81,
+     "name": "Krish Vignesh",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 82,
+     "name": "Prem Noth Craph",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 83,
+     "name": "Sachit Rajkumar",
+     "rating": "1844",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 84,
+     "name": "Thomas Gregersen",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 85,
+     "name": "Tucker Broderick",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 86,
+     "name": "Waali Imran",
+     "rating": "",
+     "score": "1",
+     "games": "1",
+     "accum": "1"
+    },
+    {
+     "rank": 87,
+     "name": "Ajavy Kad",
+     "rating": "",
+     "score": "0.5",
+     "games": "9",
+     "accum": "2.5"
+    },
+    {
+     "rank": 88,
+     "name": "Kevin Boskey",
+     "rating": "",
+     "score": "0.5",
+     "games": "1",
+     "accum": "0.5"
+    },
+    {
+     "rank": 89,
+     "name": "Quinten Fideli",
+     "rating": "",
+     "score": "0.5",
+     "games": "1",
+     "accum": "0.5"
+    },
+    {
+     "rank": 90,
+     "name": "Leonard Sklaney",
+     "rating": "",
+     "score": "0",
+     "games": "10",
+     "accum": "0"
+    },
+    {
+     "rank": 91,
+     "name": "Franklin Batirov",
+     "rating": "",
+     "score": "0",
+     "games": "6",
+     "accum": "0"
+    },
+    {
+     "rank": 92,
+     "name": "Joe Rood",
+     "rating": "521",
+     "score": "0",
+     "games": "4",
+     "accum": "0"
+    },
+    {
+     "rank": 93,
+     "name": "Tirth Patel",
+     "rating": "",
+     "score": "0",
+     "games": "4",
+     "accum": "0"
+    },
+    {
+     "rank": 94,
+     "name": "Wyatt De Luna",
+     "rating": "",
+     "score": "0",
+     "games": "2",
+     "accum": "0"
+    },
+    {
+     "rank": 95,
+     "name": "Zachary Caplin",
+     "rating": "",
+     "score": "0",
+     "games": "2",
+     "accum": "0"
+    },
+    {
+     "rank": 96,
+     "name": "Amrenda Kumar",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 97,
+     "name": "Andy Soukal",
+     "rating": "1500",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 98,
+     "name": "Asher Anderson",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 99,
+     "name": "Brody Beckstadter",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 100,
+     "name": "Cameron Collar",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 101,
+     "name": "Jackson Carver",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 102,
+     "name": "Jacob Zarris",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 103,
+     "name": "James De Both",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 104,
+     "name": "Jeremiah Porrey",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 105,
+     "name": "Marcel Grabiec",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 106,
+     "name": "Micheal Friel",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 107,
+     "name": "Miguel Matallanes",
+     "rating": "425",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 108,
+     "name": "Nathan Franklin",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 109,
+     "name": "Suryakank Kad",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 110,
+     "name": "Victor Cisnevos",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 111,
+     "name": "Victor Hugo Cisnevos",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    },
+    {
+     "rank": 112,
+     "name": "William Sparks",
+     "rating": "",
+     "score": "0",
+     "games": "1",
+     "accum": "0"
+    }
+   ]
+  },
+  {
    "file": "260625",
    "date": "2026-06-25",
    "label": "June 25, 2026",
